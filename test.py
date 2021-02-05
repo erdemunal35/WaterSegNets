@@ -8,10 +8,10 @@ from local_albumentations import get_training_augmentation, get_validation_augme
 import time
 import numpy as np
 import pandas as pd
-import mplcursors
+# import mplcursors
 
 #Uncomment the lines 64-74 to test the networks for the given test dataset
-#Uncomment the lines 77-131 to plot the metrics of networks
+#Uncomment the lines 11 and 77-131 to plot the metrics of networks
 #Uncomment the lines 114-141 to observe prediction time + the visualization
 
 # helper function for data visualization
