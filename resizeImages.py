@@ -1,6 +1,8 @@
 import os, sys
 from PIL import Image
 
+# Download the main water dataset from https://www.kaggle.com/gvclsu/water-segmentation-dataset
+# change 'size' variable to your own choice of resolution
 size = 256, 256
 
 dirName = "dataset_reshaped_" + str(size[0])+"-"+str(size[1])
