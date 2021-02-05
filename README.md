@@ -25,7 +25,7 @@
 > 5. [Pyramid Attention Network (PAN)](https://arxiv.org/pdf/1805.10180.pdf)
 
 ## Train and Test
-Check the files [train.py]() and [test.py]() comprehensively. You can train all the available [decoder networks](https://smp.readthedocs.io/en/latest/models.html) with [encoder networks](https://smp.readthedocs.io/en/latest/encoders.html) by changing some variable names in the train.py file. Then, you can test the trained models again by uncommenting such lines in the test.py file.
+Check the files [train.py](https://github.com/erdemunal35/WaterSegNets/blob/main/train.py) and [test.py](https://github.com/erdemunal35/WaterSegNets/blob/main/test.py) comprehensively. You can train all the available [decoder networks](https://smp.readthedocs.io/en/latest/models.html) with [encoder networks](https://smp.readthedocs.io/en/latest/encoders.html) by changing some variable names in the train.py file. Then, you can test the trained models again by uncommenting such lines in the test.py file.
 ```
 python train.py
 ```
