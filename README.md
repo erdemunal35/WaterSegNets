@@ -1,5 +1,5 @@
 # WaterSegNets
- Semantic segmentation of water surfaces is a great challenge. This is due to the fact that the appearance of water is strongly changed by light influences, suspended solids and similar. Common segmentation methods are usually real-time capable only with powerful hardware. Within the scope of this project, encoder-decoder based water segmentation networks are trained and tested via [PyTorch](https://pytorch.org/).
+ Semantic segmentation of water surfaces is a great challenge. This is due to the fact that the appearance of water is strongly changed by light influences, suspended solids and similar. Common segmentation methods are usually real-time capable only with powerful hardware. Within the scope of this project, encoder-decoder based water segmentation networks are trained and tested via [PyTorch](https://pytorch.org/) and then converted to CoreML. The CoreML models are tested on Iphone XR in the repository [Real-time-Video-Segmentation-on-Iphone](https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone).
 
 ##Requirements
 [torch](https://pytorch.org/) ,[torchvision](https://pytorch.org/), [segmentation-models-pytorch](https://smp.readthedocs.io/en/latest/install.html) and [albumentations](https://pypi.org/project/albumentations/) libraries need to be installed.
@@ -35,8 +35,10 @@ python test.py
 ## PyTorch - ONNX - CoreML Models
 Check [convert_onnx.py](https://github.com/erdemunal35/WaterSegNets/blob/main/convert_onnx.py) and [convert_mlmodel.py](https://github.com/erdemunal35/WaterSegNets/blob/main/convert_mlmodel.py) files, simply changing the path of the '.pth' model will do the work. Convert '.pth' file to '.onnx', then convert the '.onnx' file to '.mlmodel'. Do the conversions in this order.
 
-PyTorch models are saved in [trained_models/](https://github.com/erdemunal35/WaterSegNets/tree/main/trained_models) folder \n
-ONNX models are saved in [onnx_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/onnx_files) folder \n
-CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/mlmodel_files) folder \n
+PyTorch models are saved in [trained_models/](https://github.com/erdemunal35/WaterSegNets/tree/main/trained_models) folder <br/>
+ONNX models are saved in [onnx_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/onnx_files) folder <br/>
+CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/mlmodel_files) folder <br/>
 
 ## Results
+
+The results up to now are
