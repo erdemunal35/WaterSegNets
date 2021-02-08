@@ -1,7 +1,7 @@
-# WaterSegNets
+# WaterSegNets with segmentation-models-pytorch lib
  Semantic segmentation of water surfaces is a great challenge. This is due to the fact that the appearance of water is strongly changed by light influences, suspended solids and similar. Common segmentation methods are usually real-time capable only with powerful hardware. Within the scope of this project, encoder-decoder based water segmentation networks are trained and tested via [PyTorch](https://pytorch.org/) and then converted to CoreML. The CoreML models are tested on Iphone XR in the repository [Real-time-Video-Segmentation-on-Iphone](https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone).
 
-##Requirements
+## Requirements
 [torch](https://pytorch.org/) ,[torchvision](https://pytorch.org/), [segmentation-models-pytorch](https://smp.readthedocs.io/en/latest/install.html) and [albumentations](https://pypi.org/project/albumentations/) libraries need to be installed.
 
 [Netron](https://github.com/lutzroeder/Netron) and [mplcursors](https://pypi.org/project/mplcursors/) libraries might need to be installed later during testing of the networks.
@@ -18,7 +18,7 @@
 > 6. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
 
 ## Decoder Networks
-> 1. [LinkNet)](https://arxiv.org/pdf/1707.03718.pdf)
+> 1. [LinkNet](https://arxiv.org/pdf/1707.03718.pdf)
 > 2. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 > 3. [Feature Pyramid Networks (FPN)](https://arxiv.org/pdf/1612.03144.pdf)
 > 4. [Pyramid Scene Parsing Network (PSPNet)](https://arxiv.org/pdf/1612.01105.pdf)
