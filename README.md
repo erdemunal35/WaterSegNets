@@ -52,6 +52,8 @@ CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/Water
         <td>
             <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result2.png" alt="Seg demo"></img>
         </td>
+        </tr>
+        <tr>
          <td>
             <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result3.png" alt="Seg demo"></img>
         </td>
