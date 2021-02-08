@@ -41,4 +41,22 @@ CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/Water
 
 ## Results
 
-The results up to now are
+<table>
+    <tr>
+        <td colspan=2 align="center"><b>Segmentation Result for one random image<b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result1.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result2.png" alt="Seg demo"></img>
+        </td>
+         <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result3.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result4.png" alt="Seg demo"></img>
+        </td>
+    </tr>
+</table>
