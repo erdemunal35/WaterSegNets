@@ -35,9 +35,9 @@ python test.py
 ## PyTorch - ONNX - CoreML Models
 Check [convert_onnx.py](https://github.com/erdemunal35/WaterSegNets/blob/main/convert_onnx.py) and [convert_mlmodel.py](https://github.com/erdemunal35/WaterSegNets/blob/main/convert_mlmodel.py) files, simply changing the path of the '.pth' model will do the work. Convert '.pth' file to '.onnx', then convert the '.onnx' file to '.mlmodel'. Do the conversions in this order.
 
-PyTorch models are saved in [trained_models/](https://github.com/erdemunal35/WaterSegNets/tree/main/trained_models) folder <br/>
-ONNX models are saved in [onnx_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/onnx_files) folder <br/>
-CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/mlmodel_files) folder <br/>
+PyTorch models are saved in [trained_models/](https://github.com/erdemunal35/WaterSegNets/tree/main/trained_models) <br/>
+ONNX models are saved in [onnx_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/onnx_files) <br/>
+CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/WaterSegNets/tree/main/mlmodel_files) <br/>
 
 ## Results
 
