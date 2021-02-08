@@ -41,6 +41,7 @@ CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/Water
 
 ## Results
 
+### Test of PyTorch Models
 <table>
     <tr>
         <td colspan=2 align="center"><b>Segmentation Result for one random image<b></td>
@@ -62,3 +63,97 @@ CoreML models are saved in [mlmodel_files/](https://github.com/erdemunal35/Water
         </td>
     </tr>
 </table>
+
+<table>
+    <tr>
+        <td colspan=2 align="center"><b>Segmentation Result for one random image<b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result5.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result6.png" alt="Seg demo"></img>
+        </td>
+        </tr>
+        <tr>
+         <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result7.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result8.png" alt="Seg demo"></img>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td colspan=2 align="center"><b>Segmentation Result for one random image<b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result9.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result10.png" alt="Seg demo"></img>
+        </td>
+        </tr>
+        <tr>
+         <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result11.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result12.png" alt="Seg demo"></img>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td colspan=2 align="center"><b>Segmentation Result for one random image<b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result13.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result14.png" alt="Seg demo"></img>
+        </td>
+        </tr>
+        <tr>
+         <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result15.png" alt="Seg demo"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/WaterSegNets/blob/main/results/result16.png" alt="Seg demo"></img>
+        </td>
+    </tr>
+</table>
+
+### Test of CoreML models
+Check [the repository Real-time-Video-Segmentation-on-Iphone](https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone) for the code
+<table align="center">
+    <tr>
+        <td colspan=3 align="center"><b>Real-time water surface segmentation using different encoder-decoder pairs on iPhone XR<b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone/blob/master/github_data/linknet_mobilenetv2_gif.gif?raw=true" alt="Seg demo on iPhoneXR"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone/blob/master/github_data/linknet_resnet18_gif.gif?raw=true" alt="Seg demo on iPhoneXR"></img>
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <img src="https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone/blob/master/github_data/unet_mobilenetv2_gif.gif?raw=true" alt="Seg demo on iPhoneXR"></img>
+        </td>
+        <td>
+            <img src="https://github.com/erdemunal35/Real-time-Video-Segmentation-on-Iphone/blob/master/github_data/unet_resnet18_gif.gif?raw=true" alt="Seg demo on iPhoneXR"></img>
+        </td>
+    </tr>
+</table>
+
+## Acknowledgement
+I'd like to thank [Vincent Garcia](https://github.com/vincentfpgarcia) for providing a great tutorial in his [repository](https://github.com/vincentfpgarcia/from-pytorch-to-coreml) about how to train and convert PyTorch models into CoreML models.
+
